@@ -1,0 +1,15 @@
+
+body{
+	font-family: "Hiragino Kaku Gothic Pro","Meiryo","MS PGothic",sans-serif;
+	font-size: 1em;
+}
+
+p{
+	color: #0099ff;
+}
+
+
+.container-narrow {
+	margin: 0 auto;
+	max-width: 746px;
+}
