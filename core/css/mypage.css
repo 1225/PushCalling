@@ -13,3 +13,16 @@ p{
 	margin: 0 auto;
 	max-width: 746px;
 }
+
+
+.select_day {
+	width:60px;
+	background-color: white;
+	border: 1px solid #CCC;
+}
+
+.select_year {
+	width:70px;
+	background-color: white;
+	border: 1px solid #CCC;
+}
