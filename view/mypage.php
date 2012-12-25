@@ -21,9 +21,18 @@
 			</div>
 			<hr>
 			<h1>みみかきおしらせったー</h1>
-			<textarea cols="10" rows="1" width="400" wrap="off">todoを入力</textarea>
-		
-		
+			<input type="text" placeholder="お知らせしてほしい内容">
+			<select>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select>
+			週間
+	
+
+
 		</div>
 
 	</body>
