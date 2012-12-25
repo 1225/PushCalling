@@ -31,18 +31,24 @@
 			<hr>
 
 
-			<form class="form-horizontal">
+			<form class="form-horizontal" action="../controller/registration.php" method="POST" enctype="multipart/form-data">
 			<h5>新規登録はこちらから</h5>
+				<div class="control-group">
+					<label class="control-label" for="inputEmail">ユーザ名</label>
+					<div class="controls">
+						<input type="text" name="inputUsername" id="inputUsername" placeholder="Username">
+					</div>
+				</div>
 				<div class="control-group">
 					<label class="control-label" for="inputEmail">Email</label>
 					<div class="controls">
-						<input type="text" id="inputEmail" placeholder="Email">
+						<input type="text" name="inputEmail" id="inputEmail" placeholder="Email">
 					</div>
 				</div>
 				<div class="control-group">
 					<label class="control-label" for="inputPassword">Password</label>
 					<div class="controls">
-						<input type="password" id="inputPassword" placeholder="Password">
+						<input type="password" name="inputPassword" id="inputPassword" placeholder="Password">
 					</div>
 				</div>
 				<div class="control-group">

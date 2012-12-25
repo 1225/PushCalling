@@ -12,7 +12,6 @@ class Login{
             //エラーページをリロード
         }else{
             if(isset($user_name) && isset($user_pass) && isset($user_email)){
-                /*
                 $stmt = $dbh->prepare("insert into user (user_name,password,email) value (:user_name, :password, :email);");
                 $stmt->bindValue(':user_name',$user_name,PDO::PARAM_STR);
                 $stmt->bindValue(':password',$user_pass,PDO::PARAM_STR);
@@ -20,7 +19,6 @@ class Login{
                 $stmt->execute();
                 $result = $stmt->fetch(PDO::FETCH_ASSOC);
                 $dbh = null;
-                 */
                 return true;
             }
         }
